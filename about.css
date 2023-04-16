@@ -1,0 +1,166 @@
+/*
+#060047 blue 
+#B3005E dark maroon
+#E90064  dark pink
+#FF5F9E  pink
+
+
+
+#251B37 violet
+#372948 purple
+#FFCACA pink
+#FFECEF creamy pink
+*/ 
+
+
+
+/*nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    color: aliceblue;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(174, 224, 174);
+}
+
+.logo{
+    width:60px;
+    border: 0.5cm;
+    color: aliceblue;
+    margin: 0;
+
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.logo{
+    width:65px;
+    border: 0.5cm;
+}
+nav{
+    display: flex;
+    width: 84%;
+    /*margin: auto;*/
+    padding: 18px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#f3f7fb;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(174, 224, 174);
+}
+
+
+
+
+.box1{
+    /*margin-left: 2cm;
+    left: 0px;
+    width: 40%;
+    padding: 20px 25px;
+    
+    border: 2px solid white;*/
+    
+    padding: 1.5cm 0.5cm;
+    display: inline-block;
+    transition:bottom 1s,left 1s;
+    padding-bottom: 0px;
+}
+.box1:hover .h1{
+    left:45%
+}
+
+
+.box2{
+     
+    left: 0px;
+    padding: 20px 5px ;
+    margin: 0.1cm 4cm ;
+    width: 43%;
+    
+}
+.abtimg{
+    float:right;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    display: block;
+}
+
+.htst{
+
+    display: inline-block;
+    color: azure;
+    background-color: #CD5888 ;
+    border: 2px solid #E9E8E8 ;
+    border-width: 3px;
+    width:4cm ;
+    text-align: center;
+    border-radius: 0.5cm;
+    padding: 25px 20px;
+    align-items: auto;
+    box-shadow: 0 4px 8px 0 rgb(234, 231, 51);
+
+}
+div ul li.htst a {
+    color: aliceblue;
+}
+div ul li.htst a:hover{
+    color:#913175 ;
+}
+.para1{
+    /*border: 2px solid white;*/
+    margin : 3px auto;
+    width: min-content;
+    background-color:#913175;
+    display: inline-block;
+    padding: 1cm;
+}
+
+.para1{
+    display: block;
+    width: 15cm;
+    height: 5cm;
+}
+*{
+    background-image:url('aboutlrg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.checked {
+    color: orange;
+  }
